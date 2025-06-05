@@ -13,3 +13,15 @@ class Node
             next = NULL;
         )
 };
+
+//stuck class
+class Stack
+{
+    private:
+        Node *top; // Pointer the top node of the stack
+    
+    public:
+    Stack(){
+        top = NULL; // Initalize the stack with a null top pointer
+    }
+};
