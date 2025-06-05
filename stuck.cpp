@@ -9,9 +9,9 @@ class Node
         int data;
         Node *next;
 
-        Node(
+        Node(){
             next = NULL;
-        )
+        }
 };
 
 //stuck class
@@ -58,7 +58,7 @@ class Stack
     {
         if (isEmpty())
         {
-            cot << "List is Empty. " << endl;
+            cout << "List is Empty. " << endl;
         }
         else
         {
@@ -68,6 +68,7 @@ class Stack
                 cout << current->data << " " << endl;
                 current = current->next;
             }
-        }
+            cout << endl;
+        } // Return the value of the top node
     }
 };
