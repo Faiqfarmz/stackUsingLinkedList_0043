@@ -89,6 +89,13 @@ int main()
         cout << "Enter your choice: ";
         cin >> choice;
 
-        
+        switch (choice)
+        {
+            case 1:
+                cout << "Enter the value to push: ";
+                cin >> value;
+                strack.push(value); // push the entered onto the stack
+                break;
+        }
     }
 }
