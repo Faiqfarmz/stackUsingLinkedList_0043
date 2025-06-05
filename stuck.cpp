@@ -36,6 +36,10 @@ class Stack
         return value;
     }
 
-
+    // IsEmpty operation: check if the stack is empty
+    bool isEmpty()
+    {
+        return top == NULL; // Return true if the top pointer is NULL, indication an empty
+    }
 
 };
